@@ -44,7 +44,7 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [YPD media]{.underline} – Yeast, Peptone, and Dextrose media. A broad media used to cultivate yeasts and fungi. In our lab, antibiotics are added to select for *Yarrowia*-like yeast isolates.
 
 |                      |                                    |                                                                                                                       |
-|---------------|---------------|-------------------------------------------|
+|----------------|----------------|---------------------------------------|
 | **KB**               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
 | **LB**               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
 | **TSB**              | Tryptic soy broth                  | Broad media                                                                                                           |
@@ -59,7 +59,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Antibiotics & Antifungals
 
 | **Abbreviation** | **Name**              | **Stock concentration** | **Typical media concentration** |
-|-----------------|-----------------|-----------------|----------------------|
+|-----------------|-----------------|-----------------|---------------------|
 | **Rif**          | Rifampicin            | 100 mg/mL               | 50 µg/mL                        |
 | **Tet**          | Tetracycline          | 50 mg/mL                | 10 µg/mL                        |
 | **Gent**         | Gentamycin            | 50 mg/mL                | 25 µg/mL                        |
@@ -484,6 +484,52 @@ For the cultivation of *serratia symbiotica*
         -   Use a different trash bag for each aphid species.
     -   Replace those 3 old plants with fresh plants.
     -   When watering plants, wash can between aphid cages.
+
+**Tory's tips for minimally maintaining all non pea aphids at once**
+
+[Monday]{.underline}
+
+-   Plants
+    -   6 pea
+    -   1 dock
+    -   2 turnip/cuc
+-   Aphids
+    -   pea aphids (replace 3 plants in each tent, 6 total)
+    -   goldenrod (just water)
+    -   dock (water, replace 1 plant)
+    -   barley (just water)
+    -   turnips (water plants, OR replace most plants, depending on which are sadder, turnip or cucumbers)
+    -   cucumber (water plants, OR replace most plants, depending on which are sadder, turnip or cucumbers)
+
+[Thursday]{.underline}
+
+-   Plants
+    -   6 pea
+    -   2 barley
+    -   2 cuc/turnip
+-   Aphids
+    -   pea aphids (replace 3 plants in each tent, 6 total)
+    -   goldenrod (water, replace 1 plant on weeks with \*)
+    -   dock (just water)
+    -   barley (replace most plants)
+    -   turnips (water plants, OR replace most plants, depending on which are sadder, turnip or cucumbers)
+    -   cucumber (water plants, OR replace most plants, depending on which are sadder, turnip or cucumbers)
+
+[Notes]{.underline}
+
+-   Water goldenrod twice per week and change some plants once a month
+-   Aphids on barley, dock, cucumber and turnip will slowly build up density even if most of the plants are changed each week, so that every third week or so we get an explosion of winged adults on the tops of the cages.
+    -   When this happens, remove ALL plants and replace, let density build up again
+-   Follow this order for going into cages:
+    1.  pea
+    2.  goldenrod
+    3.  dock
+    4.  barley
+    5.  cucumber or turnip (cage that is being watered only)
+    6.  cucumber or turnip (cage with plant change last)
+        -   Do ***not*** change plants in both turnip and cucumber on the same day.
+            -   Water the cage with the better looking plant and then change plants in the worse looking cage
+        -   After going into a cage, wash and wipe down your hands and arms, rinse aphids of watering can, before going into a new cage
 
 # *Pseudomonas* Epiphytic Growth Assays
 
