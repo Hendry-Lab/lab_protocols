@@ -1,0 +1,246 @@
+---
+title: "Hendry Lab Protocols & Recipes"
+output: 
+  html_document:
+    css: "css/tufte.css"
+    toc: TRUE
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Planting & Aphids
+
+*Updated: 2023 November 13*
+
+**Procedure**
+
+1.  Evaluate plants
+    -   Dryness
+    -   Deadness
+    -   Aphid contamination
+        -   If you find an aphid: text Tory or Katie.
+        -   Isolate the plant, ideally in an aphid cage.
+        -   Check if there is a backup of that plant.
+        -   If so, plant may have to be moved to the aphid room.
+    -   *Note: never go into the plant room after being in the aphid room on the same day.*
+2.  Pots
+    -   Clear the sink.
+    -   Empty soil from the old pots (after freezing) into the trash bag.
+        -   *Note: do not leave defrosting trash bags out for \>3 days.*
+    -   Place empty old pots in sink and scrub/rinse to remove dirt.
+    -   Add 1:10 bleach to water (by eye) into a tub in the sink and soak scrubbed/rinsed pots for \~12 hours.
+    -   Rinse off the bleach from the pots and set on bench to dry.
+        -   *Note: be careful not to get bleach on clothes or hands.*
+3.  Planting
+    -   Use dry pots with two trays underneath and up to 6 pots/tray.
+
+        -   Use smaller pots for plants like fava bean/pea and bigger pots for plants like barley/cucumber.
+
+    -   Loosen a bag of soil and fill pots up to inner rim.
+
+    -   Seeds are located in the fridge on the second shelf.
+
+        -   Use Johnny’s seeds.
+
+    -   Plant seeds according to the post-it note on the countertop shelf.
+
+        -   *Note: calculate any fava plants 2 weeks before experiments*
+        -   *Note: always make sure there are at least 12 fava bean plants for the aphids.*
+
+        | Plant     | Amount      |
+        |-----------|-------------|
+        | Cucumbers | 3 seeds/pot |
+        | Beans     | 4 beans/pot |
+        | Turnips   | 1 pinch/pot |
+        | Barley    | 1 pinch/pot |
+        | Dock      | 1 pinch/pot |
+4.  Watering
+    -   The hose is in the adjacent room.
+    -   Turn on the tap in the adjacent room and the switch for the water in located on the hose nozzle.
+        -   3 secs/plant on high setting.
+5.  Sacrificing Plants to the Aphids
+    -   Take out ¾ of the plants in a cage and put them in a trash bag.
+        -   Use a different trash bag for each aphid species.
+    -   Replace those 3 old plants with fresh plants.
+    -   When watering plants, wash can between aphid cages.
+
+# *Pseudomonas* Epiphytic Growth Assays
+
+*Date Updated: 2023 November 24*
+
+**Day -3: Plating**
+
+1.  From -80°C/current plate, plate *Pseudomonas* strains/individual colonies on KB + NA (15 𝜇g/mL) + NFT (50 𝜇g/mL) plates.
+
+2.  Incubate for 24-72 hours at 28°C.
+
+**Day 0: Overnights of Pseudomonas**
+
+1.  Pipette 10 mL of KB + NA (15 𝜇g/mL) + NFT (50 𝜇g/mL) media in 15 mL culture tube.
+
+    -   *Note: Make 1 tube/pot and don’t forget a blank!*
+
+2.  Transfer a colony of *Pseudomonas* from plate to media.
+
+3.  Incubate in benchtop shaker at 28C overnight (\~18 hrs).
+
+**Day 1: Spraying**
+
+1.  Transfer overnight *Pseudomonas* culture from culture tube to falcon tube.
+
+2.  Pellet cells by centrifuging for 10 min on max speed
+
+3.  Discard supernatant.
+
+4.  Add 1 mL 10mM MgCl2 buffer and resuspend/vortex.
+
+5.  Pellet and discard supernatant again.
+
+6.  Add \~25 mL 10mM MgCl2 buffer and resuspend/vortex.
+
+7.  Transfer 100 ul of sample to a blank cuvette.
+
+8.  Measure OD of bacterial resuspension (include blank!).
+
+    -   Goal: OD = 0.2
+
+9.  Transfer 20 mL of bacterial resuspension into autoclaved spray bottle.
+
+    -   Clean tops using ethanol and sterile water.
+
+10. Retrieve 14 day old plants from plant room and place in biosafety cabinet.
+
+11. Spray \~20 mL bacterial solution onto all the leaves and all plant surfaces (stem, top, bottom) of pot until runoff (starting to drip).
+
+12. Allow plant to dry in the biosafety cabinet.
+
+13. Move plant to tent downstairs and note time.
+
+14. Incubate for 72 hours in a tent at 70F and 85% humidity.
+
+**Day 4: Sampling**
+
+1.  Retrieve plants from plant room and place in biosafety cabinet.
+
+2.  Sterilize cork borer and forceps using ethanol flame and place in a sterile petri dish in biosafety cabinet.
+
+3.  Take 10 samples from all over each plant in the pot.
+
+    -   Place all samples from a plant in a single falcon tube, 10 discs/tube.
+
+        -   Will end with end with 3 falcon tubes and 30 samples if sampling 3 plants (1 pot).
+
+    -   Add 10 mL of 10mM MgCl2 buffer to falcon tubes.
+
+4.  Sonicate falcon tubes for 10 min.
+
+5.  Vortex to dislodge epiphytic bacteria.
+
+6.  Make serial dilutions (2 technical replicate/sample) in 96 well plate using multichannel pipette.
+
+    -   900 uL buffer and 100 uL sample/dilution.
+
+7.  Plate serial dilutions on KB + NA (15 ug/mL) + NFT (50 ug/mL) plates.
+
+    -   4 plates per sample
+
+    -   100 ul per plate
+
+8.  Allow plates to dry then flip upside and incubate at 28C for 24 hrs.
+
+**Day 5: Counting**
+
+1.  Photograph plates.
+
+2.  Count colonies on each plate and note in spreadsheet.
+
+3.  Calculate CFU/10 mL bacterial resuspension (ie. per sample).
+
+# Glycerol Stocks
+
+*Updated: 2022 November 4 by Vivi Sanchez*
+
+**Procedure**
+
+1.  Add 1mL of LB to sterile glass culture tube.
+
+2.  Select one colony of interest from your nutrient plate and inoculate culture media.
+
+3.  Grow culture overnight at 28C in shaker.
+
+4.  The next day, label 2 cryotubes with isolate information on the side of the tube (i.e Isolate ID, isolate name, date collected, Collector) and label the top of the tube with the Isolate ID.
+
+5.  Check the -80C master sheet on Lab archives to determine Isolate ID.
+
+6.  Dispense 900 uL of sterile 20% glycerol in each cryotube.
+
+7.  Dispense 100 uL of overnight culture to its designated cryotube.
+
+8.  Invert to mix and let sit for at least five minutes.
+
+9.  Store at -80C.
+
+# King’s Broth (KB) Media (500 mL)
+
+**Ingredients**
+
+|                  |        |
+|------------------|--------|
+| ddH2O            | 500mL  |
+| Peptone          | 10 g   |
+| K2HPO4           | 0.75 g |
+| MgSO4•7H2O       | 0.75 g |
+| Glycerol         | 5.0 ml |
+| Agar (if needed) | 7.5 g  |
+
+**Procedure**
+
+1.  Measure 500 ml DI water into a 1 L glass media bottle.
+
+2.  Add ingredients in order above (use syringe for glycerol) and swirl to mix.
+
+3.  Autoclave on liquid run for 30 mins.
+
+4.  Place in waterbath at 56ºC until cool enough to pour.
+
+5.  If adding antibiotics/antifungals, wait until bottle is temperature of a warm cup of tea before adding.
+
+# -80C Freezer Strain Retrieval
+
+*Updated: 2022 November 4 by Vivi Sanchez*
+
+1.  Grab -80C freezer key from its designated drawer in room 257.
+
+    -   *Please remember to return the key to this spot when you are done using it.*
+
+2.  Fill an ice bucket with ice and retrieve stocks of interest.
+
+    -   *Glycerol stocks will thaw quickly, so please remove a few stocks at a time to prevent unnecessary thawing.*
+
+3.  Plate stocks on LB and incubate overnight at 28C.
+
+4.  Return stocks to -80C freezer and return key to its drawer.
+
+5.  Check pockets to make sure you did not accidentally take the key. :)
+
+# MgCl2 (1M) Stock
+
+**Ingredients**
+
+|                                            |         |
+|--------------------------------------------|---------|
+| MgCl2 anhydrous (Molecular weight = 95.21) | 19.04 g |
+| dH2O                                       | 200 mL  |
+
+Procedure:
+
+1.  In the fume hood, dissolve MgCl2 in dH2O
+
+    -   *Note: this is an exothermic reaction and it will heat up.*
+
+2.  Autoclave on fluid for 30 mins.
