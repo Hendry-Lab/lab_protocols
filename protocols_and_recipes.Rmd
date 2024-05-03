@@ -1,14 +1,17 @@
 ---
 title: "Hendry Lab Protocols & Recipes"
 output:
-  word_document:
+  pdf_document:
     toc: true
-    reference_docx: "templates/wordstyletemplate.docx"
-    keep_md: true
+    latex_engine: xelatex
   html_document:
     css: css/tufte.css
     toc: true
     toc_float: true
+  word_document:
+    toc: true
+    reference_docx: templates/wordstyletemplate.docx
+    keep_md: true
 editor_options:
   chunk_output_type: console
 ---
@@ -17,29 +20,33 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+\newpage
+
 # Autoclave Procedures
 
-[To autoclave **liquids** and **waste:**]{.underline}
+[To autoclave liquids and waste:]{.underline}
 
 1.  Make sure all bottles containing liquid are slightly unscrewed such that steam can escape.
 
 2.  Set autoclave to ‘Liquid cycle” and change sterilization time to 30 min, exhaust time to 0 min.
 
-    -   **Liquid cycle**
-    -   **30 min sterilization**
-    -   **0 min exhaust (none)**
+    -   Liquid cycle
+    -   30 min sterilization
+    -   0 min exhaust (none)
 
 3.  Make sure to reset the jacket steam (red button) after the run is completed (about 1 hour later)
 
-[To autoclave **solids** and **glassware**:]{.underline}
+[To autoclave solids and glassware:]{.underline}
 
 -   Set autoclave to ‘solids’ or ‘gravity’ cycle. Sterilization time should be set to 20 min, and exhaust time to 20 min.
 
-    -   **Gravity/solid cycle**
+    -   Gravity/solid cycle
 
-    -   **20 min sterilization**
+    -   20 min sterilization
 
-    -   **20 min exhaust**
+    -   20 min exhaust
+
+\newpage
 
 # Abbreviations
 
@@ -48,34 +55,37 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [YPD media]{.underline} – Yeast, Peptone, and Dextrose media. A broad media used to cultivate yeasts and fungi. In our lab, antibiotics are added to select for *Yarrowia*-like yeast isolates.
 
 |                      |                                    |                                                                                                                       |
-|-----------------|-----------------|--------------------------------------|
-| **KB**               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
-| **LB**               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
-| **TSB**              | Tryptic soy broth                  | Broad media                                                                                                           |
-| **TSA**              | Tryptic soy agar                   | Broad media                                                                                                           |
-| **YPD**              | Yeast, Peptone, and Dextrose media | Used to grow yeasts/fungi                                                                                             |
-| **BHI**              | Brain Heart Infusion media         | Broad media, used to grow host associated bacteria                                                                    |
-| **863**              |                                    | Special medium for serratia symbiotica                                                                                |
-| **Leeds**            | Leeds Acinetobacter media          | Agar media with a pH indicator. Used to identify Acinetobacter.                                                       |
-| **M9 Minimal media** | M9 Minimal media                   | Media with minimal nutrients used to test growth on various carbon sources. A carbon source must be added for growth. |
-| **PMM**              | Pseudomonas Minimal media          | A nutrient limited minimal media specific for pseudomonads                                                            |
+|------------------|------------------|-------------------------------------|
+| KB               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
+| LB               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
+| TSB              | Tryptic soy broth                  | Broad media                                                                                                           |
+| TSA              | Tryptic soy agar                   | Broad media                                                                                                           |
+| YPD              | Yeast, Peptone, and Dextrose media | Used to grow yeasts/fungi                                                                                             |
+| BHI              | Brain Heart Infusion media         | Broad media, used to grow host associated bacteria                                                                    |
+| 863              |                                    | Special medium for serratia symbiotica                                                                                |
+| Leeds            | Leeds Acinetobacter media          | Agar media with a pH indicator. Used to identify Acinetobacter.                                                       |
+| M9 Minimal media | M9 Minimal media                   | Media with minimal nutrients used to test growth on various carbon sources. A carbon source must be added for growth. |
+| PMM              | Pseudomonas Minimal media          | A nutrient limited minimal media specific for pseudomonads                                                            |
+\newpage
 
 # Antibiotics & Antifungals
 
-| **Abbreviation** | **Name**              | **Stock concentration** | **Typical media concentration** |
-|------------------|------------------|------------------|--------------------|
-| **Rif**          | Rifampicin            | 100 mg/mL               | 50 µg/mL                        |
-| **Tet**          | Tetracycline          | 50 mg/mL                | 10 µg/mL                        |
-| **Gent**         | Gentamycin            | 50 mg/mL                | 25 µg/mL                        |
-| **Kan**          | Kanamycin             | 50 mg/mL                | 50 µg/mL                        |
-| **Strep**        | Streptomycin          | 100 mg/mL               |                                 |
-| **Chlor**        | Chloramphenicol       | 50 mg/mL                | 30 µg/mL                        |
-| **Amp**          | Ampicillin            | 50 mg/mL                |                                 |
-| **Nal**          | Nalidixic Acid        | 30 mg/mL                | 15 µg/mL                        |
-| **NFT**          | Nitrofuratoin         | 50 mg/mL                | 50 µg/mL                        |
-| **Nyst**         | Nystatin (antifungal) | 35 mg/mL                | 35 µg/mL                        |
+| Abbreviation | Name              | Stock concentration | Typical media concentration |
+|------------------|------------------|------------------|-------------------|
+| Rif          | Rifampicin            | 100 mg/mL               | 50 µg/mL                        |
+| Tet          | Tetracycline          | 50 mg/mL                | 10 µg/mL                        |
+| Gent         | Gentamycin            | 50 mg/mL                | 25 µg/mL                        |
+| Kan          | Kanamycin             | 50 mg/mL                | 50 µg/mL                        |
+| Strep        | Streptomycin          | 100 mg/mL               |                                 |
+| Chlor        | Chloramphenicol       | 50 mg/mL                | 30 µg/mL                        |
+| Amp          | Ampicillin            | 50 mg/mL                |                                 |
+| Nal          | Nalidixic Acid        | 30 mg/mL                | 15 µg/mL                        |
+| NFT          | Nitrofuratoin         | 50 mg/mL                | 50 µg/mL                        |
+| Nyst         | Nystatin (antifungal) | 35 mg/mL                | 35 µg/mL                        |
 
-# **Rifampicin stocks (100 mg / mL)**
+\newpage
+
+# Rifampicin stocks (100 mg / mL)
 
 -   Dissolve 1 g in 10 mL of DMSO in hood.
 
@@ -87,19 +97,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Add 500 µl / L for final concentration of 50 µg / mL
 
-# **3M Sodium Hydroxide (NaOH) stocks**
+\newpage
+
+# 3M Sodium Hydroxide (NaOH) stocks
 
 -   Make 200 mL
 
 -   For 3M:
 
-    -   1M = 40 g in 1 L \* 3 = 120 g / 5 = **24g**
+    -   1M = 40 g in 1 L  3 = 120 g / 5 = 24g
 
 -   Dissolve slowly in DI water in fume hood.
 
 -   Store at room temp.
 
-# **Nystatin (anti-fungal) stocks**
+\newpage
+
+# Nystatin (anti-fungal) stocks
 
 -   Dissolve 350 mg in 10 mL of 70% EtOH.
 
@@ -109,13 +123,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Store in -20 freezer
 
-# **1M Magnesium Chloride (MgCl2) stock**
+\newpage
+
+# 1M Magnesium Chloride (MgCl2) stock
 
 -   Molecular weight = 95.21
 
 -   Make 200 mL
 
--   0.2 \* 95.21 = **19.04 g**
+-   0.2  95.21 = 19.04 g
 
 -   Dissolve in DI water in the fume hood.
 
@@ -125,7 +141,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Aliquot into 1 mL tubes for daily use.
 
-# **M9 Minimal Salts 10X stock (for M9 media)**
+\newpage
+
+# M9 Minimal Salts 10X stock (for M9 media)
 
 -   DI H2O 500 mL
 
@@ -137,7 +155,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   NH4Cl 5 g
 
-# **10X DNA gel-loading dye, 10mL**
+\newpage
+
+# 10X DNA gel-loading dye, 10mL
 
 -   Glycerol 3.9 mL
 
@@ -157,7 +177,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Filter sterilize with syringe and 15mL falcon tube
 
-# **0.5M EDTA, 1L**
+\newpage
+
+# 0.5M EDTA, 1L
 
 -   MilliQ H2O 800 mL
 
@@ -167,7 +189,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
     Add the EDTA to approximately 800mL of Milli-Q water and stir vigorously on magnetic stirrer. Adjust volume to 1L with Milli-Q water. Slowly add NaOH tablets (a few at a time) to adjust the pH to 8.0. The EDTA will not dissolve until the pH reaches 8.0.
 
-# **1x Phosphate buffered saline (PBS), 1L**
+\newpage
+
+# 1x Phosphate buffered saline (PBS), 1L
 
 -   DI H2O
 
@@ -179,11 +203,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   K2HPO4 0.24 g
 
-    \*pH to 7.4 using HCL
+    pH to 7.4 using HCL
 
     Add the ingrdients to approximately 900 mL of distilled water and stir vigorously on a magnetic stirrer to dissolve. Adjust volume to 1L using distilled water. Adjust pH to 7.4 using HCL. Autoclave for 20min.
 
-# **Tris-acetate-EDTA (TAE) Buffer (50X), 1L**
+\newpage
+
+# Tris-acetate-EDTA (TAE) Buffer (50X), 1L
 
 -   Tris base 242.0 g
 
@@ -195,9 +221,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Add the tris, EDTA, and glacial acetic acid to approximately 700mL of distilled water and stir until the contents are dissolved. Adjust the volume t0 1L using distilled water.
 
-\*To make 1L of 1X TAE, add 20 mL 50X TAE to 980 mL distilled H2O
+To make 1L of 1X TAE, add 20 mL 50X TAE to 980 mL distilled H2O
 
-# **Tris-borate-EDTA (TBE) Buffer (10X), 1L**
+\newpage
+
+# Tris-borate-EDTA (TBE) Buffer (10X), 1L
 
 -   Tris base 108 g
 
@@ -209,9 +237,11 @@ Add the tris, EDTA, and glacial acetic acid to approximately 700mL of distilled 
 
 Add the tris, EDTA, and boric acid to approximately 800mL of distilled water and stir until contents are dissolved. Adjust volume to 1L using distilleds water.
 
-\*To make 1L of 1X TBE, add 100mL of 10X TAE to 900mL DI H2O
+To make 1L of 1X TBE, add 100mL of 10X TAE to 900mL DI H2O
 
-# **King’s B (KB) agar or media (500 ml)**
+\newpage
+
+# King’s B (KB) agar or media (500 ml)
 
 -   Distilled H2O 500mL
 
@@ -227,7 +257,7 @@ Add the tris, EDTA, and boric acid to approximately 800mL of distilled water and
 
 Measure 500 ml DI water into a 1 L glass media bottle. Add ingredients in order above (use syringe for glycerol) and swirl to mix. Autoclave on liquid run for 30 mins. Place in waterbath at 56ºC until cool enough to pour.
 
-If adding rifampicin or other antibiotics/antifungals, wait until bottle is temperature of a warm cup of tea before adding. **For a final concentration of 25µg/mL rifampicin in 500mL of media, add 250µL of the 100mg/mL rif stock and swirl to stir**.
+If adding rifampicin or other antibiotics/antifungals, wait until bottle is temperature of a warm cup of tea before adding. For a final concentration of 25µg/mL rifampicin in 500mL of media, add 250µL of the 100mg/mL rif stock and swirl to stir.
 
 Optional additions:
 
@@ -235,7 +265,9 @@ Optional additions:
 
 -   Nystatin (35 µg/mL) add 500µL stock to 500mL media.
 
-# **Liquid Broth (LB) media (500mL)**
+\newpage
+
+# Liquid Broth (LB) media (500mL)
 
 -   DI H2O 500 mL
 
@@ -249,9 +281,11 @@ Optional additions:
 
 Adjust pH to 7.4
 
-\*autoclave on liquid cycle for 20min
+autoclave on liquid cycle for 20min
 
-# **Yeast extract, Peptone, & Dextrose (YPD) Media (500mL)**
+\newpage
+
+# Yeast extract, Peptone, & Dextrose (YPD) Media (500mL)
 
 For the cultivation of Yarrowia and other fungi.
 
@@ -267,7 +301,7 @@ For the cultivation of Yarrowia and other fungi.
 
 Antibiotics (for selection of Yarrowia isolates)
 
-**To get: Add:**
+To get: Add:
 
 15ug/mL tetracycline 250uL of stock
 
@@ -275,11 +309,13 @@ Antibiotics (for selection of Yarrowia isolates)
 
 25ug/mL chloramphenicol 250uL of stock
 
-# **Nitrogen Limited Leeds Agar**
+\newpage
 
-**(Katie’s frankenmedia for Yarrowia)**
+# Nitrogen Limited Leeds Agar
 
-**(500mL)**
+(Katie’s frankenmedia for Yarrowia)
+
+(500mL)
 
 | DI H2O                  | 500 mL  |
 |-------------------------|---------|
@@ -293,7 +329,9 @@ Antibiotics (for selection of Yarrowia isolates)
 | Agar                    | 6.0 g   |
 | pH to 7.0 +/- 0.2       |         |
 
-# **Leeds Acinetobacter Agar Base (500mL)**
+\newpage
+
+# Leeds Acinetobacter Agar Base (500mL)
 
 | DI H2O                  | 500 mL |
 |-------------------------|--------|
@@ -310,7 +348,9 @@ Antibiotics (for selection of Yarrowia isolates)
 | pH to 7.0 +/- 0.2       |        |
 |                         |        |
 
-# **M9 Minimal Media (500mL)**
+\newpage
+
+# M9 Minimal Media (500mL)
 
 -   DI H2O 450 mL
 
@@ -318,7 +358,7 @@ Antibiotics (for selection of Yarrowia isolates)
 
 -   Agar 15 g
 
-    **Autoclave, then add:**
+    Autoclave, then add:
 
 -   1M MgSO4 1.0 mL
 
@@ -334,7 +374,9 @@ Antibiotics (for selection of Yarrowia isolates)
 
     20% fructose 10mL
 
-# **Pseudomonas Minimal Media (PMM) (500mL)**
+\newpage
+
+# Pseudomonas Minimal Media (PMM) (500mL)
 
 -   DI H2O 492.5 mL
 
@@ -348,7 +390,9 @@ Antibiotics (for selection of Yarrowia isolates)
 
 -   Agar 7.5 g
 
-# **863 Media (500mL), liquid**
+\newpage
+
+# 863 Media (500mL), liquid
 
 For the cultivation of *serratia symbiotica*
 
@@ -360,7 +404,9 @@ For the cultivation of *serratia symbiotica*
 
 -   Casein peptone (or tryptone) 5g
 
-# **868 Media (500mL), agar**
+\newpage
+
+# 868 Media (500mL), agar
 
 (same as 863 media, but with 1.7% agar)
 
@@ -374,7 +420,9 @@ For the cultivation of *serratia symbiotica*
 
 -   Agar 8.5 g
 
-# **Nitrofurantoin stocks (50 mg / mL)**
+\newpage
+
+# Nitrofurantoin stocks (50 mg / mL)
 
 1.  Make solution of:
 
@@ -386,9 +434,11 @@ For the cultivation of *serratia symbiotica*
 
 3.  Store at 4C.
 
-# **Aphid diet ingredients**
+\newpage
 
-| **NAME**                       | **Douglas (g/L)** |
+# Aphid diet ingredients
+
+| NAME                       | Douglas (g/L) |
 |--------------------------------|-------------------|
 | Alanine                        | 0.4455            |
 | Arginine                       | 2.178             |
@@ -431,13 +481,15 @@ For the cultivation of *serratia symbiotica*
 | MgSO4, 7H2O                    | 2.42              |
 | KH2PO4                         | 2.5               |
 
-***THEN ADJUST pH TO 7.5 WITH \~14 ML NaOH 3M***
+*THEN ADJUST pH TO 7.5 WITH \~14 ML NaOH 3M*
+
+\newpage
 
 # Planting & Aphids
 
 *Updated: 2023 November 13*
 
-[**Procedure**]{.underline}
+[Procedure]{.underline}
 
 1.  Evaluate plants
     -   Dryness
@@ -489,7 +541,7 @@ For the cultivation of *serratia symbiotica*
     -   Replace those 3 old plants with fresh plants.
     -   When watering plants, wash can between aphid cages.
 
-**Tory's tips for minimally maintaining all non pea aphids at once**
+Tory's tips for minimally maintaining all non pea aphids at once
 
 [Monday]{.underline}
 
@@ -513,7 +565,7 @@ For the cultivation of *serratia symbiotica*
     -   2 cuc/turnip
 -   Aphids
     -   pea aphids (replace 3 plants in each tent, 6 total)
-    -   goldenrod (water, replace 1 plant on weeks with \*)
+    -   goldenrod (water, replace 1 plant on weeks with )
     -   dock (just water)
     -   barley (replace most plants)
     -   turnips (water plants, OR replace most plants, depending on which are sadder, turnip or cucumbers)
@@ -531,27 +583,29 @@ For the cultivation of *serratia symbiotica*
     4.  barley
     5.  cucumber or turnip (cage that is being watered only)
     6.  cucumber or turnip (cage with plant change last)
-        -   Do ***not*** change plants in both turnip and cucumber on the same day.
+        -   Do *not* change plants in both turnip and cucumber on the same day.
             -   Water the cage with the better looking plant and then change plants in the worse looking cage
         -   After going into a cage, wash and wipe down your hands and arms, rinse aphids of watering can, before going into a new cage
+
+\newpage
 
 # *Pseudomonas* Epiphytic Growth Assays
 
 *Date Updated: 2023 November 24*
 
-**Day -3: Plating**
+Day -3: Plating
 
 1.  From -80°C/current plate, plate *Pseudomonas* strains/individual colonies on KB + NA (15 𝜇g/mL) + NFT (50 𝜇g/mL) plates.
 2.  Incubate for 24-72 hours at 28°C.
 
-**Day 0: Overnights of Pseudomonas**
+Day 0: Overnights of Pseudomonas
 
 1.  Pipette 10 mL of KB + NA (15 𝜇g/mL) + NFT (50 𝜇g/mL) media in 15 mL culture tube.
     -   *Note: Make 1 tube/pot and don’t forget a blank!*
 2.  Transfer a colony of *Pseudomonas* from plate to media.
 3.  Incubate in benchtop shaker at 28C overnight (\~18 hrs).
 
-**Day 1: Spraying**
+Day 1: Spraying
 
 1.  Transfer overnight *Pseudomonas* culture from culture tube to falcon tube.
 2.  Pellet cells by centrifuging for 10 min on max speed
@@ -570,7 +624,7 @@ For the cultivation of *serratia symbiotica*
 13. Move plant to tent downstairs and note time.
 14. Incubate for 72 hours in a tent at 70F and 85% humidity.
 
-**Day 4: Sampling**
+Day 4: Sampling
 
 1.  Retrieve plants from plant room and place in biosafety cabinet.
 2.  Sterilize cork borer and forceps using ethanol flame and place in a sterile petri dish in biosafety cabinet.
@@ -590,11 +644,13 @@ For the cultivation of *serratia symbiotica*
     -   100 ul per plate
 8.  Allow plates to dry then flip upside and incubate at 28C for 24 hrs.
 
-**Day 5: Counting**
+Day 5: Counting
 
 1.  Photograph plates.
 2.  Count colonies on each plate and note in spreadsheet.
 3.  Calculate CFU/10 mL bacterial resuspension (ie. per sample).
+
+\newpage
 
 # Glycerol Stocks
 
@@ -610,9 +666,11 @@ For the cultivation of *serratia symbiotica*
 8.  Invert to mix and let sit for at least five minutes.
 9.  Store at -80C.
 
+\newpage
+
 # King’s Broth (KB) Media (500 mL)
 
-[**Ingredients**]{.underline}
+[Ingredients]{.underline}
 
 |                  |        |
 |------------------|--------|
@@ -623,13 +681,15 @@ For the cultivation of *serratia symbiotica*
 | Glycerol         | 5.0 ml |
 | Agar (if needed) | 7.5 g  |
 
-[**Procedure**]{.underline}
+[Procedure]{.underline}
 
 1.  Measure 500 ml DI water into a 1 L glass media bottle.
 2.  Add ingredients in order above (use syringe for glycerol) and swirl to mix.
 3.  Autoclave on liquid run for 30 mins.
 4.  Place in waterbath at 56ºC until cool enough to pour.
 5.  If adding antibiotics/antifungals, wait until bottle is temperature of a warm cup of tea before adding.
+
+\newpage
 
 # -80C Freezer Strain Retrieval
 
@@ -649,16 +709,18 @@ For the cultivation of *serratia symbiotica*
 
 5.  Check pockets to make sure you did not accidentally take the key. :)
 
+\newpage
+
 # MgCl2 (1M) Stock
 
-[**Ingredients**]{.underline}
+[Ingredients]{.underline}
 
 |                                            |         |
 |--------------------------------------------|---------|
 | MgCl2 anhydrous (Molecular weight = 95.21) | 19.04 g |
 | dH2O                                       | 200 mL  |
 
-[**Procedure**]{.underline}
+[Procedure]{.underline}
 
 1.  In the fume hood, dissolve MgCl2 in dH2O
 
