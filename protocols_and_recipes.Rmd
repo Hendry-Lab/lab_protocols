@@ -54,8 +54,8 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [KB media]{.underline} -- King’s B Media. Used to cultivate pseudomonads. Iron limiting media which results in fluorescent siderophore expression.
 -   [YPD media]{.underline} – Yeast, Peptone, and Dextrose media. A broad media used to cultivate yeasts and fungi. In our lab, antibiotics are added to select for *Yarrowia*-like yeast isolates.
 
-|                      |                                    |                                                                                                                       |
-|------------------|------------------|-------------------------------------|
+|                  |                                    |                                                                                                                       |
+|------------------|------------------|------------------------------------|
 | KB               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
 | LB               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
 | TSB              | Tryptic soy broth                  | Broad media                                                                                                           |
@@ -66,22 +66,23 @@ knitr::opts_chunk$set(echo = TRUE)
 | Leeds            | Leeds Acinetobacter media          | Agar media with a pH indicator. Used to identify Acinetobacter.                                                       |
 | M9 Minimal media | M9 Minimal media                   | Media with minimal nutrients used to test growth on various carbon sources. A carbon source must be added for growth. |
 | PMM              | Pseudomonas Minimal media          | A nutrient limited minimal media specific for pseudomonads                                                            |
+
 \newpage
 
 # Antibiotics & Antifungals
 
-| Abbreviation | Name              | Stock concentration | Typical media concentration |
+| Abbreviation | Name                  | Stock concentration | Typical media concentration |
 |------------------|------------------|------------------|-------------------|
-| Rif          | Rifampicin            | 100 mg/mL               | 50 µg/mL                        |
-| Tet          | Tetracycline          | 50 mg/mL                | 10 µg/mL                        |
-| Gent         | Gentamycin            | 50 mg/mL                | 25 µg/mL                        |
-| Kan          | Kanamycin             | 50 mg/mL                | 50 µg/mL                        |
-| Strep        | Streptomycin          | 100 mg/mL               |                                 |
-| Chlor        | Chloramphenicol       | 50 mg/mL                | 30 µg/mL                        |
-| Amp          | Ampicillin            | 50 mg/mL                |                                 |
-| Nal          | Nalidixic Acid        | 30 mg/mL                | 15 µg/mL                        |
-| NFT          | Nitrofuratoin         | 50 mg/mL                | 50 µg/mL                        |
-| Nyst         | Nystatin (antifungal) | 35 mg/mL                | 35 µg/mL                        |
+| Rif          | Rifampicin            | 100 mg/mL           | 50 µg/mL                    |
+| Tet          | Tetracycline          | 50 mg/mL            | 10 µg/mL                    |
+| Gent         | Gentamycin            | 50 mg/mL            | 25 µg/mL                    |
+| Kan          | Kanamycin             | 50 mg/mL            | 50 µg/mL                    |
+| Strep        | Streptomycin          | 100 mg/mL           |                             |
+| Chlor        | Chloramphenicol       | 50 mg/mL            | 30 µg/mL                    |
+| Amp          | Ampicillin            | 50 mg/mL            |                             |
+| Nal          | Nalidixic Acid        | 30 mg/mL            | 15 µg/mL                    |
+| NFT          | Nitrofuratoin         | 50 mg/mL            | 50 µg/mL                    |
+| Nyst         | Nystatin (antifungal) | 35 mg/mL            | 35 µg/mL                    |
 
 \newpage
 
@@ -105,7 +106,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   For 3M:
 
-    -   1M = 40 g in 1 L  3 = 120 g / 5 = 24g
+    -   1M = 40 g in 1 L 3 = 120 g / 5 = 24g
 
 -   Dissolve slowly in DI water in fume hood.
 
@@ -131,7 +132,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Make 200 mL
 
--   0.2  95.21 = 19.04 g
+-   0.2 95.21 = 19.04 g
 
 -   Dissolve in DI water in the fume hood.
 
@@ -438,48 +439,48 @@ For the cultivation of *serratia symbiotica*
 
 # Aphid diet ingredients
 
-| NAME                       | Douglas (g/L) |
-|--------------------------------|-------------------|
-| Alanine                        | 0.4455            |
-| Arginine                       | 2.178             |
-| Asparagine, H2O                | 1.652             |
-| Aspartic Acid                  | 1.664             |
-| Cysteine                       | 0.3029            |
-| Glutamic Acid                  | 1.103             |
-| Glutamine                      | 2.192             |
-| Glycine                        | 0.0751            |
-| Histidine, HCl, H2O            | 1.5722            |
-| Isoleucine                     | 0.9839            |
-| Leucine                        | 0.9839            |
-| Lysine mono HCl (182.65g/mol)  | 1.3699            |
-| Methionine                     | 0.373             |
-| Phenylalanine                  | 0.413             |
-| Proline                        | 0.5757            |
-| Serine                         | 0.5255            |
-| Threonine                      | 0.8934            |
-| Tryptophan                     | 0.5106            |
-| Tyrosine                       | 0.0906            |
-| Valine                         | 0.8786            |
-| Sucrose                        | 171.15            |
-| p-aminobenzoic acid            | 0.1               |
-| L-ascorbic acid                | 1                 |
-| Biotin                         | 0.001             |
-| D-calcium pantothenate         | 0.05              |
-| Choline chloride               | 0.5               |
-| Folic acid                     | 0.01              |
-| i-Inositol                     | 0.42              |
-| Nicotinamide (amide of niacin) | 0.1               |
-| Pyridoxin HCl                  | 0.025             |
-| Thiamine di-HCl                | 0.025             |
-| CuSO4 5H2O (0.1M)              | 0.00254           |
-| FeCl3 6 H2O (0.1M)             | 0.01336           |
-| MnCl2 4H2O (0.1M)              | 0.00504           |
-| NaCl                           | 0.01271           |
-| ZnCl2 (0.1M)                   | 0.00417           |
-| Calcium citrate                | 0.1               |
-| Cholesteryl benzoate           | 0.025             |
-| MgSO4, 7H2O                    | 2.42              |
-| KH2PO4                         | 2.5               |
+| NAME                           | Douglas (g/L) |
+|--------------------------------|---------------|
+| Alanine                        | 0.4455        |
+| Arginine                       | 2.178         |
+| Asparagine, H2O                | 1.652         |
+| Aspartic Acid                  | 1.664         |
+| Cysteine                       | 0.3029        |
+| Glutamic Acid                  | 1.103         |
+| Glutamine                      | 2.192         |
+| Glycine                        | 0.0751        |
+| Histidine, HCl, H2O            | 1.5722        |
+| Isoleucine                     | 0.9839        |
+| Leucine                        | 0.9839        |
+| Lysine mono HCl (182.65g/mol)  | 1.3699        |
+| Methionine                     | 0.373         |
+| Phenylalanine                  | 0.413         |
+| Proline                        | 0.5757        |
+| Serine                         | 0.5255        |
+| Threonine                      | 0.8934        |
+| Tryptophan                     | 0.5106        |
+| Tyrosine                       | 0.0906        |
+| Valine                         | 0.8786        |
+| Sucrose                        | 171.15        |
+| p-aminobenzoic acid            | 0.1           |
+| L-ascorbic acid                | 1             |
+| Biotin                         | 0.001         |
+| D-calcium pantothenate         | 0.05          |
+| Choline chloride               | 0.5           |
+| Folic acid                     | 0.01          |
+| i-Inositol                     | 0.42          |
+| Nicotinamide (amide of niacin) | 0.1           |
+| Pyridoxin HCl                  | 0.025         |
+| Thiamine di-HCl                | 0.025         |
+| CuSO4 5H2O (0.1M)              | 0.00254       |
+| FeCl3 6 H2O (0.1M)             | 0.01336       |
+| MnCl2 4H2O (0.1M)              | 0.00504       |
+| NaCl                           | 0.01271       |
+| ZnCl2 (0.1M)                   | 0.00417       |
+| Calcium citrate                | 0.1           |
+| Cholesteryl benzoate           | 0.025         |
+| MgSO4, 7H2O                    | 2.42          |
+| KH2PO4                         | 2.5           |
 
 *THEN ADJUST pH TO 7.5 WITH \~14 ML NaOH 3M*
 
@@ -639,7 +640,7 @@ Day 4: Sampling
 6.  Make serial dilutions (2 technical replicate/sample) in 96 well plate using multichannel pipette.
     -   900 uL buffer and 100 uL sample/dilution.
 7.  Plate serial dilutions on KB + NA (15 ug/mL) + NFT (50 ug/mL) plates.
-    -   4 plates per sample
+    -   Each sample should be plates undiluted, 10^-1^, and 10^-2^
 
     -   100 ul per plate
 8.  Allow plates to dry then flip upside and incubate at 28C for 24 hrs.
