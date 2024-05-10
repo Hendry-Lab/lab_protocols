@@ -1,7 +1,11 @@
-KB + NA (15 ￿g/mL) + NFT (50 ￿g/mL) media
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+# KB + NA (15 ￿g/mL) + NFT (50 ￿g/mL) media
 
-
-# Naladoxic Acid
+## Naladoxic Acid
 
 ```{r NA}
 end <- 15
@@ -13,7 +17,7 @@ add <- (end*solvent)/start
 cat("If you start with a concentration of", start/1000, "mg/mL and want to achieve a final concentration of", end, "ug/mL in a", solvent/1000, "mL solution, add", add, "uL of antibiotic.")
 ```
 
-# NFT
+## NFT
 
 ```{r NFT}
 end <- 50
@@ -23,4 +27,30 @@ add <- (end*solvent)/start
 
 # Print the result
 cat("If you start with a concentration of", start/1000, "mg/mL and want to achieve a final concentration of", end, "ug/mL in a", solvent/1000, "mL solution, add", add, "uL of antibiotic.")
+```
+
+# 10 mM MgCl2 buffer
+
+```{r MgCl2}
+end <- 10
+start <- 1000
+total_solution <- 100*1000
+add_from_stock <- (end*total_solution)/start
+add_water <- total_solution - add_from_stock
+
+# Print the result
+cat("If you start with a concentration of", start/1000, "molar and want to achieve a final concentration of", end, "milimolar in a", total_solution/1000, "mL solution, add", add_from_stock, "uL of MgCl2 buffer and", add_water/1000, "mL of water")
+```
+
+# Bacterial Dilution
+
+```{r bacterial-dilution}
+end_OD <- 0.2
+start_OD <- 0.27
+start_solution <- 30
+end_solution <- (start_OD*start_solution)/end_OD
+add_MgCl2 <- end_solution - start_solution
+
+# Print the result
+cat("If you start with", start_solution, "mL of an OD of", start_OD, "and want to achieve a final OD of", end_OD, ", add", add_MgCl2, "mL of MgCl2 buffer.")
 ```
