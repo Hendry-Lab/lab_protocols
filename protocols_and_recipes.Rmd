@@ -643,7 +643,7 @@ Day 4: Sampling
     -   Each sample should be plates undiluted, 10^-1^, and 10^-2^
 
     -   100 ul per plate
-8.  Allow plates to dry then flip upside and incubate at 28C for 24 hrs.
+8.  Allow plates to dry then flip upside and incubate at 28C for 48 hrs.
 
 Day 5: Counting
 
