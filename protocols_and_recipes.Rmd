@@ -638,7 +638,7 @@ Day 4: Sampling
 4.  Sonicate falcon tubes for 10 min.
 5.  Vortex to dislodge epiphytic bacteria.
 6.  Make serial dilutions (2 technical replicate/sample) in 96 well plate using multichannel pipette.
-    -   900 uL buffer and 100 uL sample/dilution.
+    -   450 uL buffer and 50 uL sample/dilution.
 7.  Plate serial dilutions on KB + NA (15 ug/mL) + NFT (50 ug/mL) plates.
     -   Each sample should be plates undiluted, 10^-1^, and 10^-2^
 
