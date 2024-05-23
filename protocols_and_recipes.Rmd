@@ -423,13 +423,13 @@ For the cultivation of *serratia symbiotica*
 
 \newpage
 
-# Nitrofurantoin stocks (50 mg / mL)
+# Nitrofurantoin (NFT) stocks (50 mg / mL)
 
-1.  Make solution of:
+1.  In the hood, make solution of:
 
     -   1500 mg Nitrofurantoin
 
-    -   30 mL ddH2O
+    -   30 mL ddH2O (sterile)
 
 2.  Aliquot into 2 mL tubes.
 
