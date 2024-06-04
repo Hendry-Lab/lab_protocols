@@ -55,7 +55,7 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [YPD media]{.underline} – Yeast, Peptone, and Dextrose media. A broad media used to cultivate yeasts and fungi. In our lab, antibiotics are added to select for *Yarrowia*-like yeast isolates.
 
 |                  |                                    |                                                                                                                       |
-|----------------|----------------|----------------------------------------|
+|------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | KB               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
 | LB               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
 | TSB              | Tryptic soy broth                  | Broad media                                                                                                           |
@@ -72,7 +72,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Antibiotics & Antifungals
 
 | Abbreviation | Name                  | Stock concentration | Typical media concentration |
-|-----------------|-----------------|-----------------|---------------------|
+|--------------|-----------------------|---------------------|-----------------------------|
 | Rif          | Rifampicin            | 100 mg/mL           | 50 µg/mL                    |
 | Tet          | Tetracycline          | 50 mg/mL            | 10 µg/mL                    |
 | Gent         | Gentamycin            | 50 mg/mL            | 25 µg/mL                    |
