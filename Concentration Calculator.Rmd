@@ -46,8 +46,8 @@ cat("If you start with a concentration of", start/1000, "molar and want to achie
 
 ```{r bacterial-dilution}
 end_OD <- 0.2
-start_OD <- 0.28
-start_solution <- 20
+start_OD <- 0.48
+start_solution <- 25
 end_solution <- (start_OD*start_solution)/end_OD
 add_MgCl2 <- end_solution - start_solution
 
