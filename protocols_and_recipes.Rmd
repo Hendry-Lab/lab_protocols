@@ -55,7 +55,7 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [YPD media]{.underline} – Yeast, Peptone, and Dextrose media. A broad media used to cultivate yeasts and fungi. In our lab, antibiotics are added to select for *Yarrowia*-like yeast isolates.
 
 |                  |                                    |                                                                                                                       |
-|--------------|--------------|--------------------------------------------|
+|------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | KB               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
 | LB               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
 | TSB              | Tryptic soy broth                  | Broad media                                                                                                           |
@@ -72,7 +72,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Antibiotics & Antifungals
 
 | Abbreviation | Name                  | Stock concentration | Typical media concentration |
-|-----------------|-----------------|-----------------|----------------------|
+|--------------|-----------------------|---------------------|-----------------------------|
 | Rif          | Rifampicin            | 100 mg/mL           | 50 µg/mL                    |
 | Tet          | Tetracycline          | 50 mg/mL            | 10 µg/mL                    |
 | Gent         | Gentamycin            | 50 mg/mL            | 25 µg/mL                    |
@@ -437,7 +437,7 @@ For the cultivation of *serratia symbiotica*
 
 \newpage
 
-# Naladoxic Acid  (NA) stocks (30 mg/mL)
+# Naladoxic Acid (NA) stocks (30 mg/mL)
 
 1.  In the hood, using a 50 mL conical, make a solution of:
 
@@ -742,3 +742,13 @@ Day 5: Counting
     -   *Note: this is an exothermic reaction and it will heat up.*
 
 2.  Autoclave on fluid for 30 mins.
+
+# Pseudomonas Overnight Liquid Cultures
+
+*Note: the inoculation should be performed in the hood.*
+
+1.  Pipette 10 mL of KB + NA (15 ug/mL) + NFT (50 ug/mL) media in 15 mL culture tube.
+
+2.  Transfer a colony of *Pseudomonas* from plate to media using either a sterile flamed loop or sterile pipette tip.
+
+3.  Incubate in benchtop shaker at 28C overnight (\~18 hrs).
