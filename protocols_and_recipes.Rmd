@@ -55,7 +55,7 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [YPD media]{.underline} – Yeast, Peptone, and Dextrose media. A broad media used to cultivate yeasts and fungi. In our lab, antibiotics are added to select for *Yarrowia*-like yeast isolates.
 
 |                  |                                    |                                                                                                                       |
-|------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+|--------------|--------------|--------------------------------------------|
 | KB               | King’s B media                     | Used to grow pseudomonads. Iron limited.                                                                              |
 | LB               | Liquid broth media                 | Broad media for environmental bacteria                                                                                |
 | TSB              | Tryptic soy broth                  | Broad media                                                                                                           |
@@ -72,7 +72,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Antibiotics & Antifungals
 
 | Abbreviation | Name                  | Stock concentration | Typical media concentration |
-|--------------|-----------------------|---------------------|-----------------------------|
+|-----------------|-----------------|-----------------|----------------------|
 | Rif          | Rifampicin            | 100 mg/mL           | 50 µg/mL                    |
 | Tet          | Tetracycline          | 50 mg/mL            | 10 µg/mL                    |
 | Gent         | Gentamycin            | 50 mg/mL            | 25 µg/mL                    |
@@ -610,12 +610,12 @@ Tory's tips for minimally maintaining all non pea aphids at once
 
 Day -3: Plating
 
-1.  From -80°C/current plate, plate *Pseudomonas* strains/individual colonies on KB + NA (15 ug/mL) + NFT (50 ug/mL) plates.
+1.  From -80°C/current plate, plate *Pseudomonas* strains/individual colonies on KB + NA (15 μg/mL) + NFT (50 μg/mL) plates.
 2.  Incubate for 24-72 hours at 28°C.
 
 Day 0: Overnights of Pseudomonas
 
-1.  Pipette 10 mL of KB + NA (15 ug/mL) + NFT (50 ug/mL) media in 15 mL culture tube.
+1.  Pipette 10 mL of KB + NA (15 μg/mL) + NFT (50 μg/mL) media in 15 mL culture tube.
     -   *Note: Make 1 tube/pot and don’t forget a blank!*
 2.  Transfer a colony of *Pseudomonas* from plate to media.
 3.  Incubate in benchtop shaker at 28C overnight (\~18 hrs).
@@ -628,7 +628,7 @@ Day 1: Spraying
 4.  Add 1 mL 10mM MgCl2 buffer and resuspend/vortex.
 5.  Pellet and discard supernatant again.
 6.  Add \~25 mL 10mM MgCl2 buffer and resuspend/vortex.
-7.  Transfer 100 ul of sample to a blank cuvette.
+7.  Transfer 100 μL of sample to a blank cuvette.
 8.  Measure OD of bacterial resuspension (include blank!).
     -   Goal: OD = 0.2
 9.  Transfer 20 mL of bacterial resuspension into autoclaved spray bottle.
@@ -652,11 +652,11 @@ Day 4: Sampling
 4.  Sonicate falcon tubes for 10 min.
 5.  Vortex to dislodge epiphytic bacteria.
 6.  Make serial dilutions (2 technical replicate/sample) in 96 well plate using multichannel pipette.
-    -   450 uL buffer and 50 uL sample/dilution.
-7.  Plate serial dilutions on KB + NA (15 ug/mL) + NFT (50 ug/mL) plates.
+    -   450 μL buffer and 50 μL sample/dilution.
+7.  Plate serial dilutions on KB + NA (15 μg/mL) + NFT (50 μg/mL) plates.
     -   Each sample should be plates undiluted, 10^-1^, and 10^-2^
 
-    -   100 ul per plate
+    -   100 μL per plate
 8.  Allow plates to dry then flip upside and incubate at 28C for 48 hrs.
 
 Day 5: Counting
@@ -676,8 +676,8 @@ Day 5: Counting
 3.  Grow culture overnight at 28C in shaker.
 4.  The next day, label 2 cryotubes with isolate information on the side of the tube (i.e Isolate ID, isolate name, date collected, Collector) and label the top of the tube with the Isolate ID.
 5.  Check the -80C master sheet on Lab archives to determine Isolate ID.
-6.  Dispense 900 uL of sterile 20% glycerol in each cryotube.
-7.  Dispense 100 uL of overnight culture to its designated cryotube.
+6.  Dispense 900 μL of sterile 20% glycerol in each cryotube.
+7.  Dispense 100 μL of overnight culture to its designated cryotube.
 8.  Invert to mix and let sit for at least five minutes.
 9.  Store at -80C.
 
@@ -747,8 +747,26 @@ Day 5: Counting
 
 *Note: the inoculation should be performed in the hood.*
 
-1.  Pipette 10 mL of KB + NA (15 ug/mL) + NFT (50 ug/mL) media in 15 mL culture tube.
+1.  Pipette 10 mL of KB + NA (15 μg/mL) + NFT (50 μg/mL) media in 15 mL culture tube.
 
 2.  Transfer a colony of *Pseudomonas* from plate to media using either a sterile flamed loop or sterile pipette tip.
 
 3.  Incubate in benchtop shaker at 28C overnight (\~18 hrs).
+
+# **Tryptic Soy Agar** (TSA) Media (500 mL)
+
+[Ingredients]{.underline}
+
+|                  |       |
+|------------------|-------|
+| ddH2O            | 500mL |
+| TSB powder       | 15 g  |
+| Agar (if needed) | 7.5 g |
+
+[Procedure]{.underline}
+
+1.  Measure 500 ml DI water into a 1 L glass media bottle.
+2.  Add ingredients in order above and swirl to mix.
+3.  Autoclave on liquid run for 30 mins.
+4.  Place in waterbath at 56ºC until cool enough to pour.
+5.  If adding antibiotics/antifungals, wait until bottle is temperature of a warm cup of tea before adding.
