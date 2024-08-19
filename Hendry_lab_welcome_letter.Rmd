@@ -28,11 +28,11 @@ First, you'll want to pick a desk. Most of them are available right now, so you 
 
 Tory will also discuss expectations for working hours. Typically, I like to come in to lab around 8am and stay until 1-4pm, depending on how much physical lab work I have to do. If I don't have a lot, I usually leave early and work from home the rest of the day. Whatever you decide schedule-wise, be sure to keep Tory in the loop so she knows when to expect you in the lab or when to email you instead.
 
+\newpage
+
 ## Data Storage and Organization
 
-It's essential to keep your lab space tidy and organized so you can find any files you need. Most of your files will probably be digital, so you might think this won't be a problem. However, digital organization is actually super important! Tory will discuss lab notebooks in more detail with you, but I've had a good experience keeping a digital lab notebook, then printing it out at the end of each week and taping the pages into a physical lab notebook. I also upload my digital lab notebook to the lab GitHub (<https://github.com/Hendry-Lab>) and Google Drive (<https://drive.google.com/drive/folders/1TlOhvj7-SGuR7mUJxmdoX1dgxRF65I_S?usp=drive_link>) every Friday.
-
-I like to make one big folder on my laptop called `Hendry_Lab` and keep lots of sub-folders inside of it. This way I can easily upload everything in the `Hendry_Lab` folder to Google Drive each week and just note the date I updated it.
+It's essential to keep your physical and digital lab space tidy and organized so you can find any files you need. I like to make one big folder on my laptop called `Hendry_Lab` and keep lots of sub-folders (each of which is a GitHub repository) inside of it. This way I can easily upload everything in the `Hendry_Lab` folder to the lab GitHub (<https://github.com/Hendry-Lab>) and Google Drive (<https://drive.google.com/drive/folders/1TlOhvj7-SGuR7mUJxmdoX1dgxRF65I_S?usp=drive_link>) every Friday and just note the date I updated it.
 
 ![](photos/2024aug15_welcome_letter_1.png){width="500"}
 
@@ -44,33 +44,29 @@ You'll also want to have Tory add you to the LabArchives, where we keep some spr
 
 I also recommend doing a monthly hard drive backup of all your files, juuuuuuuust in case! I bought a \$15 64 GB flash-drive and I just upload everything in my `Hendry_Lab` folder there once a month.
 
-If you've worked in a lab before, you're probably familiar with keeping lab notebooks and storing your data. If not, please let me know and I can help you out! I like to use RMarkdown for my digital lab notebook (and most of my writing) but Microsoft Word, Google Docs, and Benchling are also good options.
+Tory will discuss lab notebooks in more detail with you, but I've had a good experience keeping a digital lab notebook, then printing it out at the end of each week and taping the pages into a physical lab notebook. If you've worked in a lab before, you're probably already familiar with keeping lab notebooks and storing your data. If not, please let me know and I can help you out! I like to use RMarkdown for my digital lab notebook (and most of my writing) but Microsoft Word, Google Docs, and Benchling are also good options.
 
-## Lab Equipment and Where to Find Things
-
-### The Autoclave
-
-### The Biosafety Cabinet ("The Hood")
-
-### The Plate Incubator
-
-### The Shaker
-
-### The Centrifuge
-
-### The Fridge
-
-### The -40C Freezer
-
-### The -80C Freezer
-
-### The Plant Room
-
-### The Aphid Room
-
-### Bottles, Test Tubes, and Beakers (Oh My!)
+\newpage
 
 ## Lab Chores
+
+I'll go over the following lab chores with you once you start:
+
+-   Planting & aphids
+
+-   Cleaning pots
+
+-   Autoclaving trash
+
+-   Filling tip boxes
+
+-   Dishes
+
+-   Autoclaving glassware
+
+-   Cleaning aphid tents
+
+\newpage
 
 ### Miscellaneous Tips
 
